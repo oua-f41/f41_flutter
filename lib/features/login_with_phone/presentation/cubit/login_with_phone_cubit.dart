@@ -93,9 +93,13 @@ class LoginWithPhoneCubit extends BaseCubit<LoginWithPhoneViewModel> {
         );
         bool isNewUser = await getIt.get<ILoginOperations>().login(createdUser);
         if (isNewUser) {
-          getIt.get<AppRouter>().replace(RegisterRoute(userRequest: createdUser));
+          getIt
+              .get<AppRouter>()
+              .replace(RegisterRoute(userRequest: createdUser));
         } else {
-          getIt.get<AppRouter>().replace(const OnboardRoute());
+          getIt
+              .get<AppRouter>()
+              .replace(const MainRoute(children: [HomeRoute()]));
         }
       }
     } catch (e) {

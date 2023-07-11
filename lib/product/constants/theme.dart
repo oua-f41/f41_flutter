@@ -36,7 +36,7 @@ class ThemeConsts {
         fontStyle: FontStyle.normal,
       ),
       headlineMedium: TextStyle(
-        color: Colors.black87,
+        color: Colors.black54,
         fontSize: null,
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
@@ -301,6 +301,15 @@ class ThemeConsts {
       selectionColor: Color(0xffa5f3c3),
       selectionHandleColor: Color(0xff79eca4),
     ),
+    outlinedButtonTheme: OutlinedButtonThemeData(
+      style: OutlinedButton.styleFrom(
+        side: BorderSide(
+          color: ColorSchemes.lightColorScheme.outline.withOpacity(0.5),
+          width: 1,
+          style: BorderStyle.solid,
+        ),
+      ),
+    ),
     colorScheme: ColorSchemes.lightColorScheme,
     scaffoldBackgroundColor: ColorSchemes.lightColorScheme.background,
   );
@@ -308,6 +317,7 @@ class ThemeConsts {
   /* *************************************************************** */
 
   static ThemeData dark = ThemeData.dark(useMaterial3: true).copyWith(
+    visualDensity: VisualDensity.adaptivePlatformDensity,
     appBarTheme: AppBarTheme(
         backgroundColor: Colors.transparent,
         elevation: 0,
@@ -356,6 +366,12 @@ class ThemeConsts {
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
       ),
+      titleSmall: TextStyle(
+        color: Color(0xb3ffffff),
+        fontSize: null,
+        fontWeight: FontWeight.w400,
+        fontStyle: FontStyle.normal,
+      ),
       bodyLarge: TextStyle(
         color: Color(0xffffffff),
         fontSize: null,
@@ -375,12 +391,6 @@ class ThemeConsts {
         fontStyle: FontStyle.normal,
       ),
       labelLarge: TextStyle(
-        color: Color(0xffffffff),
-        fontSize: null,
-        fontWeight: FontWeight.w400,
-        fontStyle: FontStyle.normal,
-      ),
-      titleSmall: TextStyle(
         color: Color(0xffffffff),
         fontSize: null,
         fontWeight: FontWeight.w400,
@@ -521,7 +531,7 @@ class ThemeConsts {
         fontStyle: FontStyle.normal,
       ),
       filled: true,
-      fillColor: const Color.fromARGB(255, 32, 32, 32),
+      fillColor: const Color.fromARGB(255, 20, 20, 20),
       floatingLabelBehavior: FloatingLabelBehavior.auto,
       errorBorder: OutlineInputBorder(
         borderSide: BorderSide(
@@ -608,6 +618,15 @@ class ThemeConsts {
         }
         return null;
       }),
+    ),
+    outlinedButtonTheme: OutlinedButtonThemeData(
+      style: OutlinedButton.styleFrom(
+        side: BorderSide(
+          color: ColorSchemes.lightColorScheme.outline.withOpacity(0.5),
+          width: 1,
+          style: BorderStyle.solid,
+        ),
+      ),
     ),
     colorScheme: ColorSchemes.darkColorScheme,
     scaffoldBackgroundColor: ColorSchemes.darkColorScheme.background,

@@ -1,9 +1,9 @@
 import 'package:auto_route/auto_route.dart';
-import 'package:connectopia/product/constants/lottie_constants.dart';
-import 'package:connectopia/features/splash/splash_view_model.dart';
+import 'package:connectopia/product/constants/image_constants.dart';
 import 'package:flutter/material.dart';
 import 'package:kartal/kartal.dart';
-import 'package:lottie/lottie.dart';
+
+import 'splash_view_model.dart';
 
 @RoutePage()
 class SplashPage extends StatefulWidget {
@@ -19,8 +19,8 @@ class _SplashPageState extends SplashViewModel {
     return Scaffold(
       backgroundColor: Colors.black,
       body: Center(
-          child: Lottie.asset(LottieConstants.loadingAnimation.lottiePath,
-              repeat: false, width: context.dynamicWidth(0.45))),
+          child: Image.asset(ImageConstants.logo.imagePath,
+              width: context.dynamicWidth(0.55))),
     );
   }
 }

@@ -20,7 +20,7 @@ class RegisterForm extends StatelessWidget {
               Container(
                   width: context.dynamicWidth(0.9),
                   padding: context.paddingNormal,
-                  child: const TitleText(text: "Register")),
+                  child: const TitleText(text: "Register ;")),
               Row(
                 mainAxisSize: MainAxisSize.max,
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,

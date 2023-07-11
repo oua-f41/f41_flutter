@@ -3,7 +3,7 @@
 
 # Ürün İle İlgili Bilgiler
 
-## Takım Elemeanları
+## Takım Elemanları
    * Betül ERSAN / Scrum Master / Developer
    * Can BOYRAZ / Developer
    * Erhan GÖCEN / Product Owner/ Developer
@@ -14,7 +14,8 @@
     Connectopia
 
 ## Product  Backlog Url
-[f-41 Miro Product Backlog](https://miro.com/welcomeonboard/TFRJb3dwakk4dDdHRjRTNlBWU1ZWU1hwRjBBV3ZXRzdqbk1zNTY2dWZSSjlsZ084bmRSTTJYa3hNTUZ6Vm9WNXwzNDU4NzY0NTU2MjM0MzgwNzM1fDI=?share_link_id=124702762029)
+[f-41 Miro Product Backlog](https://miro.com/app/board/uXjVM-YmqaU=/?share_link_id=890368883493)
+
 
 ## Ürün Açıklaması 
   Yeni nesil topluluk uygulamamızla tanışın, Connectopia! Connectopia, var olan topluluğunuzda yapacağınız etkinlikleri daha çok kişiye duyurmanızı sağlayan, bir topluluğunuz yok ise ilgi alanınıza göre istediğiniz toplulukların etkinliklerine katılmanızı , topluluğa üye olarak toplulukların bir parçası olmanızı sağlayan hatta kendi topluluğunuzu kurup etkinlikler düzenlemenize yardımcı olacak yenilikçi bir platformdur.
@@ -37,7 +38,8 @@
 
 ## Ürün Özellikleri
   * Toplulukların hepsinin buluştuğu etkileşim ağı oluşturma
-  * Bölgenizdeki ve ilgi alanlarınıza uygun etkinlikleri keşfedebilme ve harita üzerinden takip                                             * Kendi topluluğunu kurup etkinliklerini paylaşabilme                     
+  * Bölgenizdeki ve ilgi alanlarınıza uygun etkinlikleri keşfedebilme ve harita üzerinden takip 
+  * Kendi topluluğunu kurup etkinliklerini paylaşabilme                     
   * Toplulukların içinde ekstra ilgili faaliyet seçimi
   * Popüler ve üye sayısının fazla olduğu toplulukların öne çıkması
   * Topluluk kanallarının kaydedilmesi
@@ -74,7 +76,7 @@ Ekran görüntüleri:
 
 | |  | |
 | :--- | :---: | ---: |
-| ![image](https://github.com/oua-f41/f41_flutter/assets/123990805/fc5beea4-1494-42eb-9e85-c456a839d54f) |![image](https://github.com/oua-f41/f41_flutter/assets/123990805/1120d6de-d7c1-49fc-93d4-ec41008a9214)  | ![image](https://github.com/oua-f41/f41_flutter/assets/123990805/d03b373d-6a8a-4cce-b116-0197480c67ed) |
+| ![image](https://github.com/oua-f41/f41_flutter/assets/123990805/fc5beea4-1494-42eb-9e85-c456a839d54f) | ![image](https://github.com/oua-f41/f41_flutter/assets/123990805/1120d6de-d7c1-49fc-93d4-ec41008a9214)  | ![image](https://github.com/oua-f41/f41_flutter/assets/123990805/d03b373d-6a8a-4cce-b116-0197480c67ed) |
 
 | |  | |
 | :--- | :---: | ---: |
@@ -99,3 +101,51 @@ Sprint Review toplantımızın toplantı raporSPRİNT-1 linkinde yer alan pdf'in
   * 2.Sprintte grup üyelerine daha fazla görev ataması yapılcağı belirtilmiştir.
 
 Sprint Retrospective toplantımızın toplantı raporu  SPRİNT-1 linkinde yer alan pdf'in son sayfasında bulunmaktadır.
+
+# Sprint-2
+
+## **Sprint Notları:**
+Giriş seçenekleri sayfasındaki görsel değiştirilecek.Categories card arkaplan resimlerinde tekrar düzenlemeler yapılacak. Son sprint olduğundan daha kısa sürede daha fazla görev bitirilmeye çalışılacak. 
+
+## **Sprint içinde tamamlanması tahmin edilen puan:** 
+140 Puan
+
+## **Puan tamamlama mantığı:** 
+Toplamda proje boyunca tamamlanması gereken 380 puanlık backlog bulunmaktadır. İlk sprint için 100 diğer sprintler için yapılacak görevlere göre 140-140 olarak belirlenmiştir.Bu sprint 140 puan olarak belirlenmiştir. 
+
+## **Daily Scrum:** 
+F-41 Discord kanalında her gün 21.00 ya da 21.30 da Daily Scrum toplantılarını  yapmaktayız. Bu sprint ile birlikte sprint-2 sürecinin başından itibaren yapılan önemli toplantılar , alınan kararlar , daily scrum konuşmalarımızın özetleri vs. tüm ayrıntılar artık Notion 'da kaydedilmeye karar verilmiş olup aşağıdaki linkte yer almaktadır. 
+
+[SPRİNT-2](https://www.notion.so/Sprint-2-c6a95e953412411eb909a45a1e8f31c3?pvs=4)
+
+## **Sprint board update:** 
+Sprint board screenshotları:
+![image](https://github.com/oua-f41/f41_flutter/assets/123990805/7ead07ae-27d1-459a-9ff6-85d963bd50f9)
+
+
+## Ürün Durumu: 
+Ekran görüntüleri:
+
+| |  | |
+| :--- | :---: | ---: |
+|![image](https://github.com/oua-f41/f41_flutter/assets/123990805/a00f359e-51fe-4989-8852-ea1c83703ff0) |![image](https://github.com/oua-f41/f41_flutter/assets/123990805/3feed814-d74a-422f-9514-7234b6574399)|![image](https://github.com/oua-f41/f41_flutter/assets/123990805/cfde7875-220f-4914-b1ce-984036fbe5fa) |
+
+| |  | |
+| :--- | :---: | ---: |
+|![image](https://github.com/oua-f41/f41_flutter/assets/123990805/b9fb77aa-13ba-490b-92bc-47028b1f7403)|![image](https://github.com/oua-f41/f41_flutter/assets/123990805/6f9eb54b-a3d0-4c62-b531-fe77e3e049ac)| ![image](https://github.com/oua-f41/f41_flutter/assets/123990805/755e0fbb-ea6b-4f40-80de-85e93f2128e1)|
+
+| |  | |
+| :--- | :---: | ---: |
+|![image](https://github.com/oua-f41/f41_flutter/assets/123990805/875986bc-ee61-4242-b5c4-be8f42a3093e)|![image](https://github.com/oua-f41/f41_flutter/assets/123990805/328441be-8785-4204-bd04-a655c19fc5d9)|![image](https://github.com/oua-f41/f41_flutter/assets/123990805/e60e3522-bce0-4d9b-9280-4122a7845b5b)|
+
+## Sprint Review: 
+  * 2.Sprint boyunca yapılanlar gözden geçirildi; uygulamanın ana gövdesini oluşturulmaya başlanmış, discover , profile sayfalarının içerikleri hazırlanmış , kategoriler , event cardlar tasarlamış , üzerinde bir kaç değişiklik daha yapılmasına karar verilmiştir.2.Sprint için yapılması hedeflenen görevler yapılmıştır.
+  * Giriş seçenekleri ekranındaki görsel değiştirilecek,Readme de uygulama özellileri başlığı altındaki bilgiler güncellenecektir.
+  * 2.Sprintte uygulama arayüzüne tamamen başlanmış olacaktır.
+  * İkinci sprintte hedeflenen görevler tamamlanmıştır.
+  * 3.Sprint için planlama toplantısı 03/07/2023 tarihinde gerçekleştirilmesi planlanmıştır.
+    
+
+## Sprint Retrospective:
+  * 3.Sprint ve son sprint olması nedeniyle daha fazla görev ataması yapılacağı belirtilmiştir.
+

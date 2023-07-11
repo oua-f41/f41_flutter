@@ -97,7 +97,8 @@ class LoginWithEmailCubit extends BaseCubit<LoginWithEmailViewModel> {
       await getIt
           .get<ILoginOperations>()
           .login(UserRequest(id: user.user!.uid, email: user.user!.email));
-      getIt.get<AppRouter>().replace(const MainRoute());
+      getIt.get<AppRouter>().pop();
+      getIt.get<AppRouter>().replace(const MainRoute(children: [HomeRoute()]));
     } on FirebaseAuthException catch (e) {
       if (e.code == 'user-not-found') {
         await createUserWithEmailAndPassword();

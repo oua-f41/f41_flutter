@@ -5,7 +5,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:kartal/kartal.dart';
 import 'package:pinput/pinput.dart';
 
-import '../../../../app/app_router.dart';
 import '../cubit/login_with_phone_cubit.dart';
 import '../cubit/view_model/login_with_phone_view_model.dart';
 

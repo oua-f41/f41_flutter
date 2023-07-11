@@ -1,32 +1,32 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
+import 'package:connectopia/product/models/core_models/group.dart';
+import 'package:json_annotation/json_annotation.dart';
+part 'category.g.dart';
+
+@JsonSerializable()
 class Category {
-  String? _id;
+  String? id;
+  String? name;
+  String? photoUrl;
+  List<Group>? groups;
 
-  String? get id => _id;
-
-  set id(String? value) {
-    _id = value;
-  }
-
-  String? _name;
-
-  String? get name => _name;
-
-  set name(String? value) {
-    _name = value;
-  }
-
-  Category({String? id, String? name})
-      : _name = name,
-        _id = id;
+  Category({this.id, this.name, this.photoUrl, this.groups});
 
   Category copyWith({
     String? id,
     String? name,
+    String? photoUrl,
+    List<Group>? groups,
   }) {
     return Category(
       id: id ?? this.id,
       name: name ?? this.name,
+      photoUrl: photoUrl ?? this.photoUrl,
+      groups: groups ?? this.groups,
     );
   }
+
+  factory Category.fromJson(Map<String, dynamic> json) =>
+      _$CategoryFromJson(json);
+
+  Map<String, dynamic> toJson() => _$CategoryToJson(this);
 }

@@ -1,1 +1,1 @@
-enum CacheEnums { applicationProperties }
+enum CacheEnums { applicationProperties, categories }

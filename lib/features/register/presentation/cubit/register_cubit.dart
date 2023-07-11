@@ -1,3 +1,4 @@
+import 'package:connectopia/product/constants/error_constants.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../app/app_router.dart';
@@ -47,11 +48,12 @@ class RegisterCubit extends BaseCubit<RegisterViewModel> {
             await _registerRepository.register(registerRequest);
         getIt.get<AppRouter>().replace(const MainRoute());
       } catch (e) {
+        if (e == ErrorConstants.userAlreadyExists.value) {
+          emit(state.copyWith(isExistUserName: true));
+        }
         print(e);
       }
-      /* print(registerRequest.toJson()); */
     }
-    /* _registerRepository.register(state.userRequest!)); */
     getIt.get<ConnectopiaAppCubit>().changeIsLoading();
   }
 }

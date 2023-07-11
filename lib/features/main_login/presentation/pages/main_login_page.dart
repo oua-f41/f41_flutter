@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:kartal/kartal.dart';
 import 'package:lottie/lottie.dart';
 
-import '../../../../app/app_router.dart';
 import '../../../../product/cache/application_properties.dart';
 import '../../../../product/cache/application_properties_manager.dart';
 import '../../../../product/cache/cache_enums.dart';
@@ -77,7 +76,8 @@ class _MainLoginPageState extends MainLoginViewModel {
                                         ?.copyWith(isNewUser: false) ??
                                     ApplicationProperties(isNewUser: false));
 
-                            context.router.replace(const MainRoute());
+                            context.router.replace(
+                                const MainRoute(children: [HomeRoute()]));
                           },
                           child: Text("- Continue without Login -",
                               style: Theme.of(context)

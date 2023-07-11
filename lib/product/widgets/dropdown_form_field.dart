@@ -4,7 +4,7 @@ class DropdownFormField extends StatelessWidget {
   const DropdownFormField(
       {super.key, required this.onTap, this.value, required this.label});
 
-  final VoidCallback onTap;
+  final Function() onTap;
   final String? value;
   final String label;
 
@@ -19,7 +19,7 @@ class DropdownFormField extends StatelessWidget {
               RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(12),
                   side: const BorderSide(color: Colors.transparent)))),
-      onPressed: () async {
+      onPressed: () {
         onTap();
       },
       child: TextFormField(

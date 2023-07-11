@@ -1,4 +1,7 @@
 import 'package:connectopia/app/app_router.dart';
+import 'package:connectopia/features/category/data/cache/category_cache_manager.dart';
+import 'package:connectopia/features/main/presentation/cubit/main_cubit.dart';
+import 'package:connectopia/features/weather/presentation/cubit/weather_cubit.dart';
 import 'package:get_it/get_it.dart';
 import 'package:injectable/injectable.dart';
 import '../../app/connectopia_app_cubit.dart';
@@ -26,4 +29,9 @@ Future<void> configureDependencies() async {
   getIt.registerLazySingleton(() => PropertiesApp());
 
   getIt.registerLazySingleton(() => ApplicationPropertiesManager());
+
+  getIt.registerLazySingleton(() => MainCubit());
+
+  getIt.registerLazySingleton(() => CategoryCacheManager());
+  getIt.registerLazySingleton(() => WeatherCubit());
 }

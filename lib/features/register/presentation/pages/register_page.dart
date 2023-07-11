@@ -1,12 +1,10 @@
 import 'package:auto_route/auto_route.dart';
+import 'package:connectopia/product/constants/image_constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:kartal/kartal.dart';
 
-import '../../../../app/app_router.dart';
-import '../../../../product/constants/lottie_constants.dart';
 import '../../../../product/models/user/request/user_request.dart';
-import '../../../../product/widgets/lottie_animation.dart';
 import '../../../../product/widgets/skip_button.dart';
 import '../cubit/register_cubit.dart';
 import '../widgets/register_form.dart';
@@ -24,7 +22,7 @@ class RegisterPage extends StatelessWidget with AutoRouteWrapper {
           forceMaterialTransparency: true,
           actions: [
             SkipButton(onPressed: () {
-              context.router.replace(const MainRoute());
+              context.router.replace(const MainRoute(children: [HomeRoute()]));
             })
           ],
         ),
@@ -40,8 +38,8 @@ class RegisterPage extends StatelessWidget with AutoRouteWrapper {
                     : context.dynamicHeight(0.35),
                 child: SizedBox(
                   width: context.dynamicWidth(0.6),
-                  child: const LottieAnimation(
-                    asset: LottieConstants.mainLoginAnimation,
+                  child: Image.asset(
+                    ImageConstants.register.imagePath,
                   ),
                 ),
               ),

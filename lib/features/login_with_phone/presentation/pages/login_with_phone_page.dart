@@ -5,9 +5,8 @@ import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_multi_formatter/flutter_multi_formatter.dart';
 import 'package:kartal/kartal.dart';
-import 'package:lottie/lottie.dart';
 
-import '../../../../product/constants/lottie_constants.dart';
+import '../../../../product/constants/image_constants.dart';
 import '../cubit/login_with_phone_cubit.dart';
 import '../cubit/view_model/login_with_phone_view_model.dart';
 
@@ -18,7 +17,13 @@ class LoginWithPhonePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+          leading: IconButton(
+        icon: const Icon(Icons.arrow_back_ios),
+        onPressed: () {
+          context.router.replace(const MainLoginRoute());
+        },
+      )),
       body: SingleChildScrollView(
         child: Center(
             child: Column(
@@ -31,8 +36,8 @@ class LoginWithPhonePage extends StatelessWidget {
                   : context.dynamicHeight(0.45),
               child: SizedBox(
                 width: context.dynamicWidth(0.7),
-                child: Lottie.asset(
-                  LottieConstants.mainLoginAnimation.lottiePath,
+                child: Image.asset(
+                  ImageConstants.loginWithPhone.imagePath,
                 ),
               ),
             ),

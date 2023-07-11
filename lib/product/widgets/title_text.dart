@@ -9,7 +9,7 @@ class TitleText extends StatelessWidget {
     return Text(text,
         style: Theme.of(context)
             .textTheme
-            .headlineMedium
-            ?.copyWith(fontWeight: FontWeight.bold));
+            .headlineSmall
+            ?.copyWith(fontSize: 25, fontWeight: FontWeight.bold));
   }
 }
